@@ -17,3 +17,4 @@ nombre = "Alejandro"
 print("Hola " + str(nombre) + ", Cómo estas?") #casteo
 print("Hola", nombre,", Cómo estas?")
 
+

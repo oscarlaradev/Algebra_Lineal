@@ -7,3 +7,4 @@ valor = input("ingresa tu edad:")
 valor = int(valor)
 valor = valor + 1
 print("Tu edad es: " +  str(valor))
+
