@@ -1,36 +1,41 @@
-# 📘 Álgebra Lineal con Python
+# 📘 Álgebra Lineal con Python – Recursos Académicos
 
-Este repositorio contiene códigos y recursos de la materia **Álgebra Lineal**, integrados con ejemplos prácticos en **Python**.  
-El objetivo es aprender los conceptos matemáticos fundamentales mientras se aplican técnicas de programación para resolver problemas reales.
-
----
-
-## 🎯 Objetivos
-- Comprender los principios básicos de álgebra lineal (vectores, matrices, sistemas de ecuaciones).
-- Aplicar Python como herramienta para visualizar y resolver problemas matemáticos.
-- Desarrollar habilidades de programación orientadas a la ciencia de datos y la ingeniería.
+Este repositorio contiene ejercicios, scripts y ejemplos prácticos de la materia **Álgebra Lineal**, integrados con programación en **Python**.  
+Está diseñado como apoyo para estudiantes que desean aprender tanto los conceptos matemáticos como las bases de la programación.
 
 ---
 
-## 📂 Contenido del repositorio
-- `vectores.py` → Operaciones básicas con vectores (suma, producto escalar, norma).
-- `matrices.py` → Creación y manipulación de matrices con **NumPy**.
-- `sistemas.py` → Resolución de sistemas de ecuaciones lineales.
-- `transformaciones.py` → Transformaciones lineales y representaciones gráficas.
-- `ejemplos_notebooks/` → Jupyter Notebooks con explicaciones paso a paso.
+## 🎯 Propósito del repositorio
+
+- Aplicar conceptos de álgebra lineal usando código Python.
+- Aprender fundamentos de programación (entrada, graficación, estructuras básicas).
+- Resolver problemas matemáticos con herramientas computacionales.
+- Servir como portafolio académico y recurso abierto para estudiantes.
 
 ---
 
-## 🛠 Tecnologías utilizadas
-- **Python 3.x**
+## 📂 Estructura de archivos
+
+| Archivo | Descripción |
+|--------|-------------|
+| `P01_introPython.py` | Introducción a Python: variables, tipos de datos |
+| `P02_entradaConsola.py` | Entrada de datos por consola |
+| `P03_Graficacion.py` | Graficación básica con `matplotlib` |
+| `P04_introNumpy.py` | Primeros pasos con `NumPy` |
+| `P05_matricesPython.py` | Creación y manipulación de matrices |
+| `P06_OpconMatrices_Matrices.py` | Operaciones con matrices |
+| `Inversa_MatrizOrden4.py` | Cálculo de matriz inversa de orden 4 |
+| `matriz_inversa.py` | Métodos para invertir matrices |
+| `pseudoinversa2x2.py` | Cálculo de pseudoinversa |
+| `Polinomio1.py`, `Polinomio2.py`, `Polinomio3.py` | Evaluación y operaciones con polinomios |
+| `main_inversa.py`, `prueba.py` | Scripts de prueba y ejecución principal |
+
+---
+
+## 🛠 Requisitos
+
+- Python 3.10+
 - Librerías:
-  - `numpy` → Cálculo numérico
-  - `matplotlib` → Visualización gráfica
-  - `scipy` → Métodos avanzados de álgebra lineal
-
----
-
-## 🚀 Cómo ejecutar
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/oscarlaradev/Algebra_Lineal.git
+  - `numpy`
+  - `matplotlib`
+  - (opcional) `scipy`
