@@ -22,11 +22,11 @@ for linea in contenido_archivo:
     #codificacion ---> convertir una variable nominal (texto)
     #   en una o mas variables numericas
     ##....one hot
-    if salida == "Iris-virginica\n":
+    if salida == "Delantero\n":
         salida = [1, 0, 0]
-    elif salida == "Iris-setosa\n":
+    elif salida == "Defensa\n":
         salida = [0, 1, 0]
-    else: # Iris-versicolor
+    else: # Medio
         salida = [0, 0, 1]
 
     matrizSalidas.append(salida)
