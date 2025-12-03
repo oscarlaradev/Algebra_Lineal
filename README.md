@@ -33,4 +33,4 @@ El objetivo es aprender los conceptos matemáticos fundamentales mientras se apl
 ## 🚀 Cómo ejecutar
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/usuario/algebra-lineal-python.git
+   git clone https://github.com/oscarlaradev/Algebra_Lineal.git
