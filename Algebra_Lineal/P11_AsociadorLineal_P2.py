@@ -1,5 +1,5 @@
 
-archivo = open("iris_completa.csv")
+archivo = open("futboldb.csv")
 contenido_archivo = archivo.readlines()
 print(contenido_archivo)
 
